@@ -1,0 +1,31 @@
+﻿<html>
+
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+  <!-- <script src="lib/angular.js"></script> -->
+  <script src="js/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.20/angular-ui-router.js"></script>
+  <script src="js/app.js"></script>
+  <style>
+    .active {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body ng-app="myApp">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">CJ!</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li> <a ui-sref="adduser" ui-sref-active="active">Add User</a></li>
+        <li> <a ui-sref="summary" ui-sref-active="active">Summary</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ui-view> </ui-view>
+</body>
+</html>

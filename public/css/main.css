@@ -1,0 +1,20 @@
+.wrapper {
+    padding: 80px;
+    background-color: #d81924;
+}
+.table {
+    margin-top: 16%;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+h1#form-heading {
+    color: #343832;
+}
+.container {
+    background-color: #e0e848;
+}
+button#Save {
+    margin-left: 47%;
+}

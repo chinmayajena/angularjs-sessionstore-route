@@ -1,0 +1,30 @@
+
+/*Responsive for portrait mode*/
+
+/*Range from 320 to 400*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 400px)
+and (orientation : portrait) {
+
+
+
+}
+
+
+
+
+
+/*Responsive for landscape mode*/
+
+/*Range from 500 to 600*/
+
+@media only screen
+and (min-device-width : 500px)
+and (max-device-width : 590px)
+and (orientation : landscape) {
+
+
+
+}

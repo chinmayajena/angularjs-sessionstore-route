@@ -1,0 +1,27 @@
+
+  <div class="wrapper">
+      <div class="container">
+          <div class="row">
+                   <div class="table-responsive">          
+                      <table class="table">
+                        <thead> 
+                          <tr>
+                            <th>Full Name</th>
+                            <th>company</th>
+                            <th>Telephoneno</th>
+                            <th>Email</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr ng-repeat="contact in contacts track by $index">
+                            <td>{{contact.fname}}</td>
+                            <td>{{contact.companyName}}</td>
+                            <td>{{contact.telephone}}</td>
+                            <td>{{contact.email}}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                     </div>
+                    </div>
+                </div>
+            </div>
